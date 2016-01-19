@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AnimationActivity"
+        parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/translate_bottom_top</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/translate_top_bottom</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_in</item>
+    </style>
+
+</resources>
